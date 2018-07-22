@@ -1,7 +1,7 @@
 import React from 'react'
 export default function Contact(props) {
   return (
-    <div>
+    <div className="page_container">
       <img alt="Top Fahrschule Manthey Logo" className="logo" src="logo.jpg" />
       <h1>Willkommen!</h1>
       <h2>Sprechzeiten & Kontakt</h2>

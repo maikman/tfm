@@ -1,7 +1,13 @@
 import React from 'react'
 export default function Info(props) {
   return (
-    <div className="page_container">
+    <div>
+    <img
+        className="car"
+        src="fahrschulauto.jpeg"
+        alt="TOP Fahrschulauto :)"
+      />
+    <div className="page_container info">
       <section>
         <div>
           <h1>TOP Fahrschule Manthey</h1>
@@ -22,11 +28,7 @@ export default function Info(props) {
           </p>
         </div>
       </section>
-      <img
-        className="car"
-        src="fahrschulauto.jpeg"
-        alt="TOP Fahrschulauto :)"
-      />
+      
       <section>
         <div>
           <h1>Seit 1999</h1>
@@ -45,6 +47,7 @@ export default function Info(props) {
           </p>
         </div>
       </section>
+    </div>
     </div>
   )
 }

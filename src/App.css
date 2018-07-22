@@ -1,6 +1,6 @@
 .App {
-  text-align: center;
-}
+  /*text-align: center;
+*/}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -8,8 +8,9 @@
 }
 
 .header {
+  text-align: center;
   background-color: white;
-  padding: 15px 0;
+  padding: 14px 0;
   color: #444;
   border-bottom: 1px solid #ccc;
   width: 100%;
@@ -31,12 +32,23 @@
 }
 
 .page_container {
+  text-align: center;
   margin: 0 160px;
   color: #333;
 }
 
 .container {
   margin-top: 80px;
+}
+
+.info {
+  padding-top: 20px;
+}
+
+.info section {
+  padding: 20px;
+  background-color: rgba(255,255,255,0.5);
+  color: black;
 }
 
 .active {
@@ -49,8 +61,12 @@
 }
 
 .car {
-  width: 80%;
-  border-radius: 100px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  z-index: -100;
+  background-attachment: fixed;
 }
 
 @media (max-width: 800px) {

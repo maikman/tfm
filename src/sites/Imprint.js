@@ -1,9 +1,8 @@
 import React from 'react'
 export default function Imprint(props) {
   return (
-    <div>
+    <div className="page_container">
       <section className="page1">
-        <div className="page_container">
           <h2>Impressum</h2>
           <p>
             Angaben gemäß § 5 TMG:<br />
@@ -32,7 +31,6 @@ export default function Imprint(props) {
             Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:<br />
             082/247/02486
           </p>
-        </div>
       </section>
     </div>
   )
